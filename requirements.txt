@@ -1,0 +1,35 @@
+# Core data science
+numpy
+pandas
+scipy
+scikit-learn
+
+# Gradient boosting
+lightgbm
+xgboost
+catboost
+
+# Hyperparameter optimization
+optuna
+optuna-integration
+
+# SHAP and interpretability
+shap
+matplotlib
+seaborn
+
+# Jupyter (VSCode runs notebooks natively via its Jupyter extension)
+ipykernel
+nbformat>=4.2.0
+
+# Storage
+pyarrow
+
+# Time series (ACF plots in Notebook 01)
+statsmodels
+
+# Utilities
+tqdm
+
+# Heavy optional installs — install separately when needed:
+# fastf1           (domain exploration only — not used for submission)
