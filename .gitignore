@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — raw CSVs come from Kaggle (train.csv is 53 MB); download manually
+# Processed outputs are reproducible from notebooks
+data/raw/*.csv
+data/processed/
+data/external/
+
+# Model artifacts — reproducible from notebooks; *.pkl catches strays outside models/
+models/
+*.pkl
+catboost_info/
+
+# Optuna — SQLite study file auto-created when using persistent storage
+*.db
+
+# Submissions — keep leaderboard_log.md but ignore the CSVs
+submissions/*
+
+# IDE
+.vscode/
+
+# Claude Code
+.claude/*
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
