@@ -31,5 +31,9 @@ statsmodels
 # Utilities
 tqdm
 
+# Neural network (CPU build; Kaggle uses pre-installed GPU version)
+# Install: pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+
 # Heavy optional installs — install separately when needed:
 # fastf1           (domain exploration only — not used for submission)
