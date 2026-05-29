@@ -12,6 +12,7 @@ __pycache__/
 data/raw/*.csv
 data/processed/
 data/external/
+data/fastf1/
 
 # Model artifacts — reproducible from notebooks; *.pkl catches strays outside models/
 models/
